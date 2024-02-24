@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let currentIndex = 0;
 
     button.addEventListener("click", function() {
-    currentIndex = (currentIndex + 1) % images.length; 
-    image.src = images[currentIndex]; 
-    image.alt = `Image ${currentIndex + 1}`; 
+        currentIndex = (currentIndex + 1) % images.length; 
+        image.src = images[currentIndex]; 
+        image.alt = `Image ${currentIndex + 1}`; 
     });
     
 });
